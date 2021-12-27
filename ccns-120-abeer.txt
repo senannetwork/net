@@ -1,0 +1,20 @@
+-----1-----
+router modes:
+1- user mode
+Router>
+ex:ping
+
+2- enable (privilege) (exec) mode
+Router#
+ex: reload
+
+3- config mode
+Router(config)#
+
+4- sub-config mode
+
+=====================≠≈===========200-301
+R&S
+security
+wireless
+VOIP
