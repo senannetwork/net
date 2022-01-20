@@ -1,0 +1,27 @@
+
+
+Router>
+Router>ena
+Router# conftig t
+Enter configuration commands, one per line. End with
+CNTL/Z.
+Router (config)
+Router (config)
+Router (config)
+Router (config) # hostname Cairo
+Cairo (config)# hostname
+Alex (config) do show clock
+*0:12:30.831 UIC Mon Mar 1 1993
+Alex (config) do clock set 08:06:10 10 May 2020
+Alex (config) interface g
+Alex (config) interface gigabitEthernet 0/0
+Alex (config-if) no shutdown
+Alex (config-if) ip address 192.168.1.1 255.255.255.0
+Alex (config) interface gigabitEthernet 0/1
+Alex (config-if) no shutdown
+Alex (config-if) ip address 192.168.2.1 255.255.255.0
+Alex (config-ir) do show ip interface br
+Alex (config-ir) do show ip route
+
+
+

@@ -1,0 +1,12 @@
+
+Router1(config)#int g0/0/1
+Router1(config-if)#ip add 192.168.1.1 255.255.255.0
+Router1(config-if)#no shut
+Router1(config-if)#int g0/0/1
+Router1(config-if)#standby 7 ip 192.168.1.100
+============================================
+Router2(config)#int g0/0/1
+Router2(config-if)#ip add 192.168.1.2 255.255.255.0
+Router2(config-if)#no shut
+Router2(config-if)#int g0/0/1
+Router2(config-if)#standby 7 ip 192.168.1.100

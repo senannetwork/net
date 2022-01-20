@@ -1,0 +1,17 @@
+ROUTE1
+
+Router Ospf 1
+Network 192.168.1.0 0.0.0.255 area 0
+network 11.0.0.0 0.255.255.255 area 0
+network 12.0.0.0 0.255.255.255 area 0
+=====================
+ROUTE 2
+Router Ospf 2
+Network 192.168.1.0 0.0.0.255 area 0
+network 11.0.0.0 0.255.255.255 area 0
+network 12.0.0.0 0.255.255.255 area 0
+=====================
+Edo ahow ip ospf ne
+
+int loopback 1
+

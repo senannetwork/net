@@ -1,0 +1,10 @@
+Router1 (config)router eigrp 1
+Router1 (config-router) Enetvork 192.168.1.0
+Router1 (eonfig-router) tnetvork 11.0.0.0
+Router1 (config-router) tnetvork 12.0.0.0
+===========================================
+Router2 (config)router eigrp 1
+Router2 (config-router) Enetvork 192.168.1.0
+%DUAL-5-NBRCHANGE: IP-EIGRP 77: Neighbor 192.168.1.0 (FastEthernet0/0) is up: new adjacency
+Router2 (eonfig-router) tnetvork 11.0.0.0
+Router2 (config-router) tnetvork 12.0.0.0

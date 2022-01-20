@@ -1,0 +1,8 @@
+
+Alex (config) #ip dhep pool 1
+Alex (dhep-config) network 192.168.1.0 255.255.255.0
+Alex (dhep-config)
+Alex (dhop-config) default-router 192.168.1.1
+Alex (dhcp-config) dns-server 8.8.8.8
+Alex (config) ip dhcp excluded-address 192.168.1.10-20
+Alex (config) #ip dhcp excluded-address 192.168.1.11
