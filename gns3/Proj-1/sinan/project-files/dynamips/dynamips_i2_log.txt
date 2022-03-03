@@ -1,0 +1,10 @@
+Feb 13 11:11:34.206 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 13 11:11:34.206 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50979.
+Feb 13 11:11:34.670 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 13 11:11:34.671 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\al_sa\Desktop\Learn\net\gns3\Proj-1\sinan\project-files\dynamips 
+Feb 13 11:11:34.671 GENERAL: working_dir=C:\Users\al_sa\Desktop\Learn\net\gns3\Proj-1\sinan\project-files\dynamips
+Feb 13 11:11:34.671 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Feb 13 11:11:46.998 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Feb 13 11:11:47.008 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 13 11:11:47.341 HYPERVISOR: Stopped.
+Feb 13 11:11:47.341 GENERAL: reset done.
