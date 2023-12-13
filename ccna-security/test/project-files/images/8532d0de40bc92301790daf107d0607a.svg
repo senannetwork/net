@@ -1,0 +1,26 @@
+<svg height="424" width="616"><text fill="#000000" fill-opacity="1.0" font-family="TypeWriter" font-size="10.0" font-weight="bold">Task 1
+ 1 - config min lentgh of password to 8 char
+    **R1(config)#security passwords min
+    **R1(config)#security passwords min-length 10
+    **R1(config)#enable secret Om@r2011
+------------------
+ 2- config authentication local using username and password
+    **R1(config)#username XxX secret XxX@2011As
+    **R1(config)#line vty 0 3
+    **R1(config-line)#login local
+-------------------
+ 3- configure delay betwen login try to 10 sec
+     **R1(config)#login delay 10
+ 4- configure router to block login for 60 sec when wrong password was entered wrong twise
+     **R1(config)#login block-for 30 attempts 2 within 20
+-------------------
+ 4- permit only for ip of net admin to login via VTY at quiet mode
+     **R1(config)#login quiet-mode access-class 1
+     **R1(config)#access-list 1 per
+     **R1(config)#access-list 1 permit host 10.10.10.10
+-------------------
+ 5- log success and failur login
+     **R1(config)#login on-success log
+     **R1(config)#login on-failure log
+
+</text></svg>
